@@ -103,6 +103,7 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             // Agregamos a la app el Widget Container que contiene una row que creamos previamente.
+            Image.asset('images/paisaje.png'),  // agregamos la imagen
             sectionTitle,
             buttonSection,
             sectionText
