@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       child: Row(
 
         children: [
-            //primer elemento. Expanded permite que los elementos dentro se extiendan por todo el espacio
+            //primer elemento. Expanded permite que los elementos dentro se extiendan por todo el espacio disponible
           Expanded(
 
             // un hijo columna con alineacion al inicio para empezar por la izquierda
@@ -87,7 +87,7 @@ class MyApp extends StatelessWidget {
         'larger Alpine Lakes. A gondola ride from Kandersteg, followed by a '
         'half-hour walk through pastures and pine forest, leads you to the '
         'lake, which warms to 20 degrees Celsius in the summer. Activities '
-        'enjoyed here include rowing, and riding the summer toboggan run.',
+        'enjoyed here include rowing, and riding the summer toboggan run. ',
         softWrap: true,
       )
     );
