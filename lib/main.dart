@@ -100,10 +100,15 @@ class MyApp extends StatelessWidget {
           title: Text("Flutter layout demo")
         ),
 
-        body: Column(
+        body: ListView( // list view admite barra de desplazamiento cuando el view es pequeño.
           children: [
             // Agregamos a la app el Widget Container que contiene una row que creamos previamente.
-            Image.asset('images/mar.jpg'),  // agregamos la imagen
+            Image.asset(
+              'images/mar.jpg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover
+            ),  // agregamos la imagen
             sectionTitle,
             buttonSection,
             sectionText
